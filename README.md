@@ -1,7 +1,7 @@
 # neural-style-video
-Application of Gaty's neural style transfer algorithm to video
+Application of Gatys' [neural style transfer algorithm](http://arxiv.org/abs/1508.06576) to video.
 
-Much of the following is lifted from Gene Kogans [instructions](https://gist.github.com/genekogan/d61c8010d470e1dbe15d)
+Much of the following is lifted from Gene Kogans [instructions](https://gist.github.com/genekogan/d61c8010d470e1dbe15d).
 
 1) Extract frames from video using ffmpeg
 
