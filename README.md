@@ -25,4 +25,6 @@ This will extract frames at 12 fps.
 5) When all frames are blended, you can merge them back into a video by calling
 
     ffmpeg -framerate 12 -i generated-%05d.png -i rawaudio.wav -c:v libx264 -preset veryslow -qp 0 -pix_fmt yuv420p myMovie.mp4
+    
+License: MIT
 
